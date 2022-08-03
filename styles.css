@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #f2f2f2;
+  background-color: #020202
+}
+
+.page-header{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  word-break: break-all
+}
