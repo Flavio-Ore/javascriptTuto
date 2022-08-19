@@ -1,5 +1,4 @@
 //! OBJETOS LITERALES
-
 let id = 0, time = 999
 
 const spot = {
@@ -37,12 +36,10 @@ const a = {
   }
 }
 
-const outOfRange = Array(200).fill(666)
-
-const inRage = Array(20).fill(666)
+const outOfRange = Array(200).fill(666),
+          inRage = Array(20).fill(666)
 
 try {
-  
   console.log(a.key);
   
   console.log(a.nodes);
@@ -54,7 +51,6 @@ try {
   a.replaceNodes(inRage)
   
   console.log(a.nodes);
-
 } catch (e) {
   console.log('ERROR DE GON:');
   console.log(e)

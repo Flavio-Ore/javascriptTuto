@@ -1,0 +1,12 @@
+{
+  "string": "name",
+  "number": 99,
+  "boolean": true,
+  "array": ["Something", "Something", "Something", "Something"],
+  "object": {
+    "string": "Other string",
+    "number": "51"
+  },
+  "nil": null,
+  "undefined": "undefined"
+}
